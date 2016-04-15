@@ -1,6 +1,124 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+    background-image: url(images/Xanadu_on_Map_of_Asia.JPG);
+    background-size:100%;
+    font-family:cursive;
+    padding: 4rem;
 }
+
+header.page-header {
+    border: solid 10px black; 
+    background-image: url(images/hard-paper-texture.jpg); 
+    color:white; 
+    font-family:fantasy; 
+    text-align: center; 
+    width: 600px; 
+    margin:0 auto;
+}
+.page-header h1 {
+    margin-bottom: -1.5rem;
+}
+.page-header small {
+    font-size: medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: fantasy;
+}
+
+    aside.more-info {
+    border-style: dotted;
+        background: white;
+        border-radius: 20px;
+}
+
+aside.more-info img {
+    width: 100px;
+    height: auto;
+    margin:0 auto 20px auto;
+    display: block;
+}
+aside.more-info {
+    width: 500px;
+    height: auto;
+    margin:15px auto;
+}
+.more-info h2 {
+    text-align: center;
+    text-height: 3;
+    margin: 10px auto 15px auto;
+}
+.more-info {
+    text-align: center;
+}
+section#content {
+    border: solid 1px black; 
+    background: LightGoldenRodYellow;
+    width: 400px;
+    margin:0 auto;
+}
+.info-links {
+    display: inline-block;
+        list-style-type: none;
+}
+.social-links {
+    display: inline-block;
+        list-style-type: none; 
+}
+.info-links, .social-links {
+   margin: 1px auto 8px auto;
+}
+ul {
+    -webkit-border-radius: 50px;
+    display: block;
+}
+.poem {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.poem li {
+    font-size: large; 
+    text-align: center;
+    line-height: 180%;
+}
+
+.poem  li:first-child::first-letter, .poem li:nth-child(6)::first-letter, .poem li:nth-child(12)::first-letter, .poem li:nth-child(27)::first-letter, .poem li:nth-child(37)::first-letter, .poem li:nth-child(44)::first-letter {
+    font-family: Georgia;
+    font-size: 55px;
+}
+.poem li:nth-child(6), .poem li:nth-child(12), .poem li:nth-child(27), .poem li:nth-child(37), .poem li:nth-child(44) {
+    margin-top: 25px;
+}
+
+.content-footer {
+    text-align: right; 
+    font-size: small; 
+    color: grey;
+}
+footer.page-footer {
+    color: saddlebrown;
+    text-size: medium; 
+    text-align: center;
+    background: white;
+    float: center;   
+    line-height: normal;
+}
+.citation {
+    font-size: 13px;
+    margin-right: 10px;
+}
+.page-footer ul {
+    list-style-type: none; 
+    font-size: 10px;
+}
+.page-credits {
+    font-size: 8px;
+}
+/*
+#content .poem li:first-child {
+    color:red;
+}
+*/
