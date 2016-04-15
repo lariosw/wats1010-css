@@ -61,10 +61,6 @@ aside.more-info {
 .info-links, .social-links {
    margin: 1px auto 8px auto;
 }
-ul {
-    -webkit-border-radius: 50px;
-    display: block;
-}
 section#content {
     border: solid 1px black; 
     background: LightGoldenRodYellow;
@@ -75,7 +71,6 @@ section#content {
     list-style-type: none;
     padding: 10px 20px;
 }
-
 .poem li {
     font-size: large; 
     text-align: center;
@@ -114,8 +109,3 @@ footer.page-footer {
 .page-credits {
     font-size: 8px;
 }
-/*
-#content .poem li:first-child {
-    color:red;
-}
-*/
